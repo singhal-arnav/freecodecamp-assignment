@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 501;
+    font-size: 18px;
+    line-height: 1.42857143;
+    background-color: #f5f6f7;
+    color: #1b1b32;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 0px 15px;
+    background-color: #0a0a23;
+    height: 56px;
+    z-index: 10;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#site-logo {
+    display: flex; 
+    position: relative; 
+    max-inline-size: max-content; 
+}
